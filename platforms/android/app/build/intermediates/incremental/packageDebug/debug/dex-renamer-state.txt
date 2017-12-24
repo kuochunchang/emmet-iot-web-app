@@ -1,0 +1,4 @@
+#Sun Dec 24 17:26:14 CST 2017
+base.0=/home/guojun/smart-home-project/emmet-iot-web-app/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/guojun/smart-home-project/emmet-iot-web-app/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

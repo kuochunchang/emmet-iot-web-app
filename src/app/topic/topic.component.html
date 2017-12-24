@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+  <div class="panel-heading"><b>{{topic.name}}:</b>
+    <span [class]="online=='online'?'label label-success':'label label-default'">{{online}}</span>
+  </div>
+  <div class="panel-body">
+    <h4>{{value}}</h4>
+    <div *ngIf="controllable">
+      <ui-switch size="small" color="green" [(ngModel)]="onoff"  (change)=onUpdateRequestEmmit()></ui-switch>
+    </div>
+  </div>
+</div>
